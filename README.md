@@ -1,2 +1,2 @@
-# music_playlist
-UAS Struktur Data dan Algoritma
+# Tugas Proyek Struktur Data dan Algoritma
+
