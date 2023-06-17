@@ -5,6 +5,7 @@ Program sederhana untuk mengatur playlist berdasarkan preferensi pengguna dengan
 - Memainkan lagu berdasarkan urutan playlist
 - Menambahkan lagu ke playlist
 - Menghapus lagu dari playlist
+- Mengacak urutan lagu di playlist
 - Melihat daftar lagu (menyortir berdasarkan terbaru atau terlama nya lagu ditambahkan)
 
 ## Kontributor 
