@@ -1,6 +1,6 @@
 import os
 
-p  # Memanggil object class
+p =  # Memanggil object class
 
 os.system('cls')
 file = open("header.txt", "r")
@@ -27,16 +27,29 @@ while True:
         # Memainkan lagu berdasarkan preferensi urutan playlist; newest, oldest, shuffl
        
     elif pilihan == "3":
+        #Menambahkan sebuah lagu ke dalam stack, queue, dan deque
         os.system('cls')
-        # Menambahkan sebuah lagu ke dalam stack, queue, dan deque
+        genre = input("Genre lagu: ")
+        judul = input("Judul lagu: ")
+        artis = input("Nama artis: ") 
+        while True:
+            try:
+                durasi = int(input("Durasi waktu (dalam menit): "))
+            except ValueError:
+                print("Masukkan input berupa angka!")
+            else:
+                break
 
+        # Tambahkan method menambahkan lagu disini
+    
     elif pilihan == "4":
         os.system('cls')
+        hapus_lagu = input("Judul lagu yang ingin dihapus: ")
         # Menghapus spesifik lagu dari stack, queue, dan deque
         
     elif pilihan == "5":
         os.system('cls')
-        judul_lagu = input("Masukkan judul lagu: ")
+        judul_lagu = input("Judul lagu yang ingin dicari: ")
         # Mencari lagu berdasarkan genre, artis, atau judul
 
     elif pilihan == "6":
