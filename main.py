@@ -7,7 +7,7 @@ file = open("header.txt", "r")
 print(file.read())
 
 while True:
-    print("\nGo-To Playlist")
+    print("\nMy Playlist")
     print("[1] Memainkan lagu")
     print("[2] Melihat daftar lagu")
     print("[3] Menambahkan lagu")
